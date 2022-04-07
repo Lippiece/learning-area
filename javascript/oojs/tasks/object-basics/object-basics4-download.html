@@ -28,6 +28,11 @@
 			this.name = name;
 			this.breed = breed;
 			this.color = color;
+			// TODO greeting() is only defined once
+			// TODO every cat instance gets its own greeting() method.
+			this.greeting = function () {
+				console.log(`${this.name} the ${this.breed} says hello.`);
+			};
 		}
 
 	</script>
