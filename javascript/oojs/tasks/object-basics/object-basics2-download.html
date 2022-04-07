@@ -45,6 +45,14 @@
 			//     released: A number representing the year the album was released.
 			albums: [],
 		};
+		function Album(name, released) {
+			this.name = name;
+			this.released = released;
+			band.albums.push(this);
+		}
+		const first = new Album("Genero de puero", "1969");
+		const second = new Album("Albero pirra jojo", "1979");
+
 
 		// Don't edit the code below here!
 
